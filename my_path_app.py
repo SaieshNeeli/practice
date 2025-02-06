@@ -2,6 +2,7 @@ import streamlit as st
 import folium
 from folium.plugins import MarkerCluster
 from geopy.distance import geodesic
+from streamlit_folium import folium_static  # Import the folium_static function
 
 # Function to calculate the path on Google Maps
 def create_map(start_lat, start_lon, end_lat, end_lon):
